@@ -59,8 +59,8 @@ function Profile() {
           <li key={incident.id}>
             <strong>CASO:</strong>
             <p>{incident.title}</p>
-            <strong>DESCRIÇÃO</strong>
-            <p>{incident.desciption}</p>
+            <strong>DESCRIÇÃO:</strong>
+            <p>{incident.description}</p>
             <strong>VALOR:</strong>
             <p>
               {Intl.NumberFormat('pt-BR', {
